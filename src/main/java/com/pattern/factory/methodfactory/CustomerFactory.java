@@ -7,7 +7,7 @@ import com.pattern.factory.model.Customer;
  * @date 2019/3/7 4:35 PM
  * @since V1.0
  */
-public class CustomerFactory implements MethodPersonFactory {
+public class CustomerFactory implements MethodPersonFactory ,MethodCusromerFactory{
 
 
     public void setUpPassword(String pwd) {
@@ -17,5 +17,9 @@ public class CustomerFactory implements MethodPersonFactory {
     public Customer createAccount() {
         System.out.println("创建账号成功");
         return new Customer();
+    }
+
+    public void buyGoods(String goodsName) {
+
     }
 }

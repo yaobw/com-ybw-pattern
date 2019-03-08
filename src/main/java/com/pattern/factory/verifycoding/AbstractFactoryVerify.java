@@ -2,6 +2,7 @@ package com.pattern.factory.verifycoding;
 
 import com.pattern.factory.abstractfactory.AbstractCustomerFactory;
 import com.pattern.factory.abstractfactory.AbstractPersonFactory;
+import com.pattern.factory.model.Customer;
 
 /**
  * @author yaobw
@@ -13,6 +14,10 @@ public class AbstractFactoryVerify {
     public static void main(String[] args) {
         AbstractPersonFactory abFactory = new AbstractCustomerFactory();
 
-        abFactory.register("", "范路遥");
+        Customer customer = (Customer) abFactory.register("", "范路遥");
+
+
+
+
     }
 }
