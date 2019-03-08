@@ -1,6 +1,7 @@
 package com.pattern.factory.abstractfactory;
 
 import com.pattern.factory.methodfactory.CustomerFactory;
+import com.pattern.factory.methodfactory.MethodCusromerFactory;
 import com.pattern.factory.methodfactory.MethodPersonFactory;
 import com.pattern.factory.simplefactory.Person;
 
@@ -9,7 +10,7 @@ import com.pattern.factory.simplefactory.Person;
  * @date 2019/3/7 4:53 PM
  * @since V1.0
  */
-public class AbstractCustomerFactory extends AbstractPersonFactory implements MethodPersonFactory {
+public class AbstractCustomerFactory extends AbstractPersonFactory implements MethodPersonFactory, MethodCusromerFactory {
 
     @Override
     public Person register(String phone, String name) {
@@ -36,5 +37,9 @@ public class AbstractCustomerFactory extends AbstractPersonFactory implements Me
      */
     public Person createAccount() {
         return null;
+    }
+
+    public void buyGoods(String goodsName) {
+
     }
 }
