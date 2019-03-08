@@ -1,8 +1,8 @@
-package com.pattern.factory.abstractFactory;
+package com.pattern.factory.abstractfactory;
 
-import com.pattern.factory.methodFactory.CustomerFactory;
-import com.pattern.factory.methodFactory.MethodPersonFactory;
-import com.pattern.factory.simpleFactory.Person;
+import com.pattern.factory.methodfactory.CustomerFactory;
+import com.pattern.factory.methodfactory.MethodPersonFactory;
+import com.pattern.factory.simplefactory.Person;
 
 /**
  * @author yaobw
@@ -30,6 +30,10 @@ public class AbstractCustomerFactory extends AbstractPersonFactory implements Me
         return null;
     }
 
+    /**
+     * 接口实现
+     * @return
+     */
     public Person createAccount() {
         return null;
     }

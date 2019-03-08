@@ -1,4 +1,4 @@
-package com.pattern.factory.methodFactory;
+package com.pattern.factory.methodfactory;
 
 import com.pattern.factory.model.Customer;
 

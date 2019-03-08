@@ -1,6 +1,6 @@
 package com.pattern.factory.model;
 
-import com.pattern.factory.simpleFactory.Person;
+import com.pattern.factory.simplefactory.Person;
 
 /**
  * @author yaobw

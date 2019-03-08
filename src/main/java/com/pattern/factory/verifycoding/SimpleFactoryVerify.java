@@ -1,8 +1,8 @@
-package com.pattern.factory.verifyCoding;
+package com.pattern.factory.verifycoding;
 
 import com.pattern.factory.model.Agent;
 import com.pattern.factory.model.Customer;
-import com.pattern.factory.simpleFactory.Person;
+import com.pattern.factory.simplefactory.Person;
 
 /**
  * @author yaobw

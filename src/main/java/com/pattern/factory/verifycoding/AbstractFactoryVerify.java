@@ -1,7 +1,7 @@
-package com.pattern.factory.verifyCoding;
+package com.pattern.factory.verifycoding;
 
-import com.pattern.factory.abstractFactory.AbstractCustomerFactory;
-import com.pattern.factory.abstractFactory.AbstractPersonFactory;
+import com.pattern.factory.abstractfactory.AbstractCustomerFactory;
+import com.pattern.factory.abstractfactory.AbstractPersonFactory;
 
 /**
  * @author yaobw

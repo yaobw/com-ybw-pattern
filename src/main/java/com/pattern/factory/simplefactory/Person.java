@@ -1,4 +1,4 @@
-package com.pattern.factory.simpleFactory;
+package com.pattern.factory.simplefactory;
 
 /**
  * @author yaobw

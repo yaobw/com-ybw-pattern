@@ -1,7 +1,7 @@
-package com.pattern.factory.methodFactory;
+package com.pattern.factory.methodfactory;
 
 import com.pattern.factory.model.Agent;
-import com.pattern.factory.simpleFactory.Person;
+import com.pattern.factory.simplefactory.Person;
 
 /**
  * @author yaobw

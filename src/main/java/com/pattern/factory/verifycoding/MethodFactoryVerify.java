@@ -1,8 +1,8 @@
-package com.pattern.factory.verifyCoding;
+package com.pattern.factory.verifycoding;
 
-import com.pattern.factory.methodFactory.AgentFactory;
-import com.pattern.factory.methodFactory.MethodPersonFactory;
-import com.pattern.factory.simpleFactory.Person;
+import com.pattern.factory.methodfactory.AgentFactory;
+import com.pattern.factory.methodfactory.MethodPersonFactory;
+import com.pattern.factory.simplefactory.Person;
 
 /**
  * @author yaobw
@@ -15,7 +15,6 @@ public class MethodFactoryVerify {
         MethodPersonFactory factoryAgent = new AgentFactory();
         Person agent = factoryAgent.createAccount();
         agent.register("" ,"秦仲海");
-//        factoryAgent.setUpPassword("123456");
 
         MethodPersonFactory factoryCustomer = new AgentFactory();
         Person customer = factoryCustomer.createAccount();
